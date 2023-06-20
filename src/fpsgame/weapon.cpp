@@ -701,10 +701,10 @@ namespace game
 
 
 
-		float cycle=(float)(start%600)/600.0f;
+		float cycle=(float)(start%1300)/1300.0f;
 		vec v_color=rainbowGradient(cycle);
 		int i_color=convertToRGB(v_color);
-		conoutf(CON_GAMEINFO, "\f2You wasted another life! The monsters stole your armour and some ammo...%f", cycle);
+
 
 		int sound = guns[gun].sound, pspeed = 25;
 		switch(gun)

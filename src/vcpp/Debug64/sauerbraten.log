@@ -1,2 +1,14 @@
-﻿  weapon.cpp
+﻿  pch.cpp
+  ai.cpp
+  entities.cpp
+  fps.cpp
+  monster.cpp
+  movable.cpp
+  render.cpp
+  scoreboard.cpp
+  waypoint.cpp
+  weapon.cpp
+  Generating Code...
+  client.cpp
+  server.cpp
   sauerbraten.vcxproj -> C:\Users\marvin\Documents\projects\discobraten\bin64\sauerbraten_debug.exe
