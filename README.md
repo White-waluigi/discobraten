@@ -1,4 +1,69 @@
-# Cube 2: Sauerbraten
+# Cube 2: Discobraten
+
+Zany mod for Sauerbraten:https://www.youtube.com/watch?v=aOqZCPIUosM
+
+Should just be able to download on play
+
+Windows users should execute sauerbraten.bat,
+
+linux users should execute sauer_client
+
+Probably compiles on mac, but I can't test it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Links
 

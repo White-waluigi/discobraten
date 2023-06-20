@@ -1,15 +1,4 @@
-﻿  pch.cpp
-  ai.cpp
-  entities.cpp
-  fps.cpp
-  monster.cpp
-  movable.cpp
-  render.cpp
-  scoreboard.cpp
-  waypoint.cpp
-  weapon.cpp
-  client.cpp
-  server.cpp
+﻿  weapon.cpp
   Generating code
   Not all modules are compiled with -Gy (function comdat), build without incremental LTCG.
   Finished generating code
