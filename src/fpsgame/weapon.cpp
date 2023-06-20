@@ -691,11 +691,20 @@ namespace game
 	void shoteffects(int gun, const vec &from, const vec &to, fpsent *d, bool local, int id, int prevaction)     // create visual effect from a shot
 	{
 
-		clock_t start = clock();
+		// Get the current time using std::chrono::steady_clock::now()
+		struct timespec now;
+		timespec_get(&now, TIME_UTC);
+		unsigned long start= ((int64_t)now.tv_sec) * 1000 + ((int64_t)now.tv_nsec) / 1000000;
+
+
 		//get 10 second fmod of clock
-		float cycle=(float)(start%600000)/600000.0f;
+
+
+
+		float cycle=(float)(start%600)/600.0f;
 		vec v_color=rainbowGradient(cycle);
 		int i_color=convertToRGB(v_color);
+		conoutf(CON_GAMEINFO, "\f2You wasted another life! The monsters stole your armour and some ammo...%f", cycle);
 
 		int sound = guns[gun].sound, pspeed = 25;
 		switch(gun)
